@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-  replicas: 7  # Number of replicas you want to run
+  replicas: 10  # Number of replicas you want to run
   selector:
     matchLabels:
       app: nginx
